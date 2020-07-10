@@ -1,5 +1,6 @@
 document.write("script.js"); // Text s uvedeným textem script.js
 // alert("The file is working"); // Vyskakující okno s upozorněním 
+/* poznámka od bodu do bodu */
 document.write("<h2 style='color:blue;'>H2</h2>");
 document.write("<h1>Hello World!</h1>");
 document.write("<hr>"); // Podelná čára
