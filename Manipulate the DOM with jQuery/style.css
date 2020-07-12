@@ -1,16 +1,5 @@
-h1 {
-    color: #ff6347;
-  }
-  
-  h2 {
-    color: purple;
-  }
-  
-  p {
-    width: 450px;
-  }
-  
-  
-  .purple {
-    color: purple;
-  }
+ #first {
+  display: none;
+ }
+
+ 

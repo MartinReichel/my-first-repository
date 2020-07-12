@@ -1,12 +1,13 @@
-let names = ["Martin", "Michal", "Petr", "Jan"]; 
+$('#buttonone').click(() => {  
+  $('#first').slideToggle(0); 
+}); 
 
-$('ul').append('names');
+$('#buttontwo').click(() => { 
+  $('#buttonone .panel-body').html('New name');
+}); 
+
+$('#buttonthree').click(() => { 
+  $('button').css('background', 'purple'); 
+}); 
 
 
-let additionalBlock = {
-    title: "Added with javascript",
-    text: "This block was added using JavaScript's jQuery library. How awesome!"
-  };
-
-  $('tittle').text('<p>Dokument</p>');
-  $("p").append( $("tittle") );
