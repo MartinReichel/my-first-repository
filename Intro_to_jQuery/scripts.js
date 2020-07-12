@@ -1,8 +1,8 @@
 $('p').css('background', 'yellow');
 
-$('p').append('-s');
+$('#third').append('-s');
 
-$('#first').html('Macrotis');
+$('#fox-1').text('Macrotis');
 
-$('p').css('border-color', 'purple');
+$('#fox-2').css('border-color', 'purple');
 
