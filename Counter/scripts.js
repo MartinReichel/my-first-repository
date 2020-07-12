@@ -1,9 +1,9 @@
 let counter = 0;
-$(".btn-increase").on("click", () => {
+$(".increase").on("click", () => {
   counter++;
   $("span").text(counter);
 });
-$(".btn-decrease").on("click", () => {
+$(".decrease").on("click", () => {
   counter--;
   $("span").text(counter);
 });
