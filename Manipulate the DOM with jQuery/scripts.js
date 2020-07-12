@@ -7,7 +7,11 @@ $('#buttontwo').click(() => {
 }); 
 
 $('#buttonthree').click(() => { 
-  $('button').css('background', 'purple'); 
+  $('.button').css('background', 'purple'); 
 }); 
 
-
+function changeColor() {
+  let color = document.getElementById("colorInputColor").value; 
+  document.body.style.backgroundcolor = color; 
+  document.getElementById("colorInputText").value = color;
+  };

@@ -1,5 +1,12 @@
- #first {
+#first {
   display: none;
  }
 
- 
+.button {
+  background-color: blue;
+ };
+
+#colorInputtext {
+  display: none;
+ };
+
